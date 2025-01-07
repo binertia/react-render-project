@@ -1,0 +1,12 @@
+div {
+    font-family: 'Arial', sans-serif;
+}
+
+svg {
+    background: linear-gradient(to bottom, #1E2D3D, #101820);
+}
+
+text {
+    pointer-events: none;
+    /* Prevent interactions */
+}

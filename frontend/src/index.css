@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #3C3D37;
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+
+}
+
+div {
+    font-family: 'Arial', sans-serif;
+}
+
+
+text {
+    pointer-events: none;
+}
+
+.active-newline {
+    white-space: pre-line;
+}
+
+/*use for fadein animation*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+
+    80% {
+        opacity: 1;
+        transform: translateY(1.5px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
